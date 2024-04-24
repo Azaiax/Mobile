@@ -10,21 +10,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class loginregis extends AppCompatActivity {
+public class login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_loginregis);
-    }
-
-    public void login(View v) {
-        Intent intent = new Intent (loginregis.this, login.class);
-        startActivity(intent);
+        setContentView(R.layout.activity_login);
     }
     public void regis(View v) {
-        Intent intent = new Intent (loginregis.this, regis.class);
+        Intent intent = new Intent (login.this, regis.class);
         startActivity(intent);
     }
 }
