@@ -18,8 +18,8 @@ public class login extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login);
     }
-    public void regis(View v) {
-        Intent intent = new Intent (login.this, regis.class);
+    public void login(View v) {
+        Intent intent = new Intent (login.this, home.class);
         startActivity(intent);
     }
 }
