@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scanbc3">
+
+
+    <ImageView
+        android:id="@+id/textView8"
+        android:layout_width="238dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="135dp"
+        android:src="@drawable/scantutup"
+        app:layout_constraintBottom_toTopOf="@+id/gambarolivia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/panahhh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginEnd="347dp"
+        android:onClick="scanbc3bc"
+        app:layout_constraintBottom_toBottomOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView8"
+        app:srcCompat="@drawable/panah"
+        tools:ignore="ContentDescription,MissingConstraints,UsingOnClickInXml,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/gambarolivia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="696dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oliviapic"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/tulisanpanjang"
+        android:layout_width="186dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="113dp"
+        app:layout_constraintBottom_toTopOf="@+id/setiapkali"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambarolivia"
+        app:layout_constraintVertical_bias="0.608"
+        app:srcCompat="@drawable/totaltutupbotol"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/setiapkali"
+        android:layout_width="301dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/scanbc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/setiapkali"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/scanbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="266dp"
+        android:background="@drawable/hasilscan"
+        android:onClick="opennow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,UsingOnClickInXml" />
+
+    <ImageView
+        android:id="@+id/klaimtutup"
+        android:layout_width="301dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintBottom_toTopOf="@+id/submitt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scanbc"
+        app:srcCompat="@drawable/klaimtutup"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="27dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginEnd="278dp"
+        app:layout_constraintBottom_toBottomOf="@+id/klaimtutup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/klaimtutup"
+        app:srcCompat="@drawable/check"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/submitt"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="565dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/buttonlogin"
+        android:backgroundTint="#1c549c"
+        android:fontFamily="@font/montserrat"
+        android:onClick="scanbc3ktp"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="320dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="634dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/buttonregis"
+        android:fontFamily="@font/montserrat"
+        android:onClick="scanbc3bc"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.84" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

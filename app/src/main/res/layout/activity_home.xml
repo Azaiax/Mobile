@@ -98,10 +98,10 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="@+id/imageView18"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.642"
+                    app:layout_constraintHorizontal_bias="0.458"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/gunungbg"
-                    app:layout_constraintVertical_bias="0.352"
+                    app:layout_constraintVertical_bias="0.359"
                     app:srcCompat="@drawable/group372"
                     tools:ignore="ContentDescription" />
 
@@ -154,19 +154,20 @@
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.114"
+                    app:layout_constraintHorizontal_bias="0.1"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.467"
+                    app:layout_constraintVertical_bias="0.471"
                     tools:ignore="HardcodedText" />
 
                 <ImageView
                     android:id="@+id/imageView26"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:onClick="redeemvgz"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.134"
+                    app:layout_constraintHorizontal_bias="0.083"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@+id/gunungbg"
                     app:layout_constraintVertical_bias="0.561"
@@ -179,7 +180,7 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.95"
+                    app:layout_constraintHorizontal_bias="0.929"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.561"
@@ -192,10 +193,10 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.138"
+                    app:layout_constraintHorizontal_bias="0.083"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.726"
+                    app:layout_constraintVertical_bias="0.725"
                     app:srcCompat="@drawable/group380"
                     tools:ignore="ContentDescription" />
 
@@ -205,10 +206,10 @@
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.95"
+                    app:layout_constraintHorizontal_bias="0.929"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.726"
+                    app:layout_constraintVertical_bias="0.725"
                     app:srcCompat="@drawable/group381"
                     tools:ignore="ContentDescription" />
 
@@ -297,7 +298,8 @@
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/frame3666"
                             tools:layout_editor_absoluteX="54dp"
-                            tools:layout_editor_absoluteY="267dp" />
+                            tools:layout_editor_absoluteY="267dp"
+                            android:onClick="scanbc"/>
 
                         <ImageView
                             android:id="@+id/temaniakt"
@@ -315,14 +317,12 @@
                     android:id="@+id/bartiga"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     android:background="@drawable/radius100"
                     android:onClick="openDrawer"
                     android:padding="10dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.574"
-
                     app:layout_constraintTop_toTopOf="@+id/idright"
                     app:layout_constraintVertical_bias="0.027"
                     app:srcCompat="@drawable/bartiga" />

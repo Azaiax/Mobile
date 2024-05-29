@@ -44,4 +44,14 @@ public class home extends AppCompatActivity {
             drawerLayout.openDrawer(GravityCompat.END);
         }
     }
+
+    public void scanbc(View v) {
+        Intent intent = new Intent (home.this, scanbarcode.class);
+        startActivity(intent);
+    }
+
+    public void redeemvgz(View v) {
+        Intent intent = new Intent (home.this, redeemvgz.class);
+        startActivity(intent);
+    }
 }
